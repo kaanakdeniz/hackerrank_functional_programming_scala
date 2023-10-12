@@ -1,0 +1,6 @@
+- https://lambdacalc.io/
+- https://stackoverflow.com/questions/34140819/lambda-calculus-reduction-steps
+
+Beta Reduction:
+(λ param . output)input => output [param := input] => result
+Output'u al ve parametre yerine input'u koy.

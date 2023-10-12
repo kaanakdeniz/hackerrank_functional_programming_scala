@@ -1,0 +1,4 @@
+(λ param . output)input => output [param := input] => result
+
+((λx.(x y))(λz.z)) => (x y) [x := (λz.z)] => ((λz.z)y)
+((λz.z)y) => z [z := y] => y
